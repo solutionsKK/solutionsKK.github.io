@@ -1,0 +1,52 @@
+/* CSS Document */
+
+body{
+	background-color:gray;}
+
+h1{text-transform:uppercase;
+
+text-align:center;
+background-color:red;
+color:white;
+	font-family:Arial;
+}
+
+ul li{
+	display:inline;margin-left:15px;
+}
+a{
+	text-decoration: none;
+	font-size: 32px;font-weight: 400;font-family: arial;
+
+}
+
+a:hover{
+	color: red;
+	
+	
+}
+
+h2{
+	background-color: aqua;
+	color: red;
+	font-size: 32px;font-weight: 400;font-family:arial;
+	text-align: center;
+}
+p{font-family:"courier new",courier,monospace;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	text-align: justify;
+	line-height: 150%;
+	
+}
+a{}
+
+
+
+
+
+
+
+
+
