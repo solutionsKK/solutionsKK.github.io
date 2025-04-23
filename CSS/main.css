@@ -1,71 +1,137 @@
-/* Basic Page Setup */
+/* Full main.css for Multi-Page Smart Tech Website */
+
+/* Base Reset and Layout */
 body {
-  background-color: #f0f0f0;
-  font-family: 'Segoe UI', sans-serif;
-  padding: 20px;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
 }
 
-/* Heading Styles */
-h1 {
-  color: white;
-  background-color: #333;
-  padding: 15px;
+/* Page Title */
+.page-title {
   text-align: center;
   text-transform: uppercase;
+  background: linear-gradient(to right, #333, #555);
+  color: white;
+  padding: 20px;
+  margin-bottom: 0;
   letter-spacing: 2px;
 }
 
-/* Paragraph Styling */
-p {
+/* Navigation Styling */
+.nav-menu {
+  list-style-type: none;
+  padding: 10px;
+  background-color: #222;
+  text-align: center;
+  margin: 0;
+}
+
+.nav-menu li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
   font-size: 18px;
-  color: #222;
-  line-height: 1.6;
-  text-align: justify;
-  margin-bottom: 20px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
 }
 
-/* Text Effects */
-.bold {
-  font-weight: bold;
+.nav-link:hover {
+  background-color: #f39c12;
+  color: #000;
 }
 
-.italic {
-  font-style: italic;
-}
-
-.underline {
-  text-decoration: underline;
-}
-
-.highlight {
-  background-color: yellow;
-  padding: 2px 5px;
-}
-
-/* Ordered List */
-ol {
-  background-color: #d3eafd;
-  padding: 10px 20px;
+/* Section Titles */
+.section-title {
+  background-color: #e3f2fd;
+  color: #007acc;
+  font-size: 28px;
+  padding: 10px;
   border-left: 5px solid #007acc;
+  margin: 30px 20px 10px;
 }
 
-ol li {
-  margin-bottom: 10px;
+/* Paragraph Styling */
+.content-text {
+  font-size: 18px;
+  text-align: justify;
+  padding: 0 20px;
+  margin: 0 auto 30px;
+  max-width: 800px;
 }
 
-/* Unordered List */
-ul {
-  background-color: #fbeec1;
-  padding: 10px 20px;
-  border-left: 5px solid #e6ac00;
+/* Image Styling */
+.main-img {
+  display: block;
+  margin: 20px auto;
+  max-width: 90%;
+  height: auto;
+  border: 4px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-ul li {
-  margin-bottom: 10px;
-  list-style-type: square;
+/* Styled Lists */
+.styled-list {
+  padding-left: 40px;
+  margin-bottom: 20px;
+  color: #333;
 }
 
-/* Inline Text Styling Example */
-.text-demo span {
-  margin-right: 10px;
+.styled-list li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.numbered {
+  list-style-type: decimal;
+}
+
+/* Callout Box */
+.callout-box {
+  background-color: #fffae6;
+  border-left: 6px solid #f1c40f;
+  padding: 15px 20px;
+  margin: 20px;
+  font-size: 16px;
+  font-style: italic;
+  border-radius: 6px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 24px;
+  }
+
+  .section-title {
+    font-size: 22px;
+  }
+
+  .nav-menu li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .nav-link {
+    display: block;
+    font-size: 20px;
+  }
+
+  .content-text {
+    font-size: 16px;
+  }
+
+  .main-img {
+    width: 100%;
+    height: auto;
+  }
 }
