@@ -1,52 +1,71 @@
-/* CSS Document */
-
-body{
-	background-color:gray;}
-
-h1{text-transform:uppercase;
-
-text-align:center;
-background-color:red;
-color:white;
-	font-family:Arial;
+/* Basic Page Setup */
+body {
+  background-color: #f0f0f0;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 20px;
 }
 
-ul li{
-	display:inline;margin-left:15px;
-}
-a{
-	text-decoration: none;
-	font-size: 32px;font-weight: 400;font-family: arial;
-
-}
-
-a:hover{
-	color: red;
-	
-	
+/* Heading Styles */
+h1 {
+  color: white;
+  background-color: #333;
+  padding: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
-h2{
-	background-color: aqua;
-	color: red;
-	font-size: 32px;font-weight: 400;font-family:arial;
-	text-align: center;
+/* Paragraph Styling */
+p {
+  font-size: 18px;
+  color: #222;
+  line-height: 1.6;
+  text-align: justify;
+  margin-bottom: 20px;
 }
-p{font-family:"courier new",courier,monospace;
-	font-size: 20px;
-	font-weight: bold;
-	color: black;
-	text-align: justify;
-	line-height: 150%;
-	
+
+/* Text Effects */
+.bold {
+  font-weight: bold;
 }
-a{}
 
+.italic {
+  font-style: italic;
+}
 
+.underline {
+  text-decoration: underline;
+}
 
+.highlight {
+  background-color: yellow;
+  padding: 2px 5px;
+}
 
+/* Ordered List */
+ol {
+  background-color: #d3eafd;
+  padding: 10px 20px;
+  border-left: 5px solid #007acc;
+}
 
+ol li {
+  margin-bottom: 10px;
+}
 
+/* Unordered List */
+ul {
+  background-color: #fbeec1;
+  padding: 10px 20px;
+  border-left: 5px solid #e6ac00;
+}
 
+ul li {
+  margin-bottom: 10px;
+  list-style-type: square;
+}
 
-
+/* Inline Text Styling Example */
+.text-demo span {
+  margin-right: 10px;
+}
