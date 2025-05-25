@@ -130,6 +130,15 @@ body {
   color: #a39100;
 }
 
+/* Image Caption Styling */
+.image-caption {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  font-style: italic;
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
