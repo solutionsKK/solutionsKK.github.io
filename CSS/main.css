@@ -140,6 +140,54 @@ body {
   font-style: italic;
 }
 
+
+/* Contact Form Styling */
+.contact-form {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Input and Textarea Fields in Contact Form */
+.contact-form input[type="text"],
+.contact-form input[type="tel"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Submit Button in Contact Form */
+.contact-form .btn {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 14px;
+  font-size: 18px;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form .btn:hover {
+  background-color: #005b99;
+}
+
+
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .page-title {
