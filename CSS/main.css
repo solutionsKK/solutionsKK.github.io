@@ -22,7 +22,6 @@ body {
 }
 
 
-/* Banner container */
 .banner {
   position: relative;
   width: 100%;
@@ -30,41 +29,45 @@ body {
   overflow: hidden;
 }
 
-/* Banner background image */
 .banner-bg {
   width: 100%;
   height: auto;
   display: block;
 }
 
-/* Logo positioned to top-left */
-.banner-logo-left {
+/* Flex container that holds both logo and title */
+.banner-content-bar {
   position: absolute;
-  top: 20px;
-  left: 20px;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+/* Logo on the left */
+.banner-logo-left {
   width: 40px;
   height: auto;
   z-index: 2;
 }
 
-/* Centered title inside banner */
-.banner-title-center {
+/* Title centered */
+.banner-title-centered {
   position: absolute;
-  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
+  transform: translateX(-50%);
+  font-size: 28px;
+  color: white;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px 20px;
   border-radius: 10px;
-}
-
-.banner-title {
-  font-size: 28px;
-  color: white;
-  margin: 0;
-  text-align: center;
-  letter-spacing: 1px;
+  z-index: 2;
+  white-space: nowrap;
 }
 
 
