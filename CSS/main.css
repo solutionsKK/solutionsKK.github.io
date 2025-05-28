@@ -36,28 +36,49 @@ body {
   display: block;
 }
 
-.banner-content {
+/* Flex container for logo + title */
+.banner-content-row {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.banner-logo {
-  width: 40px;
-  height: 40px;
-  margin-bottom: 10px;
-}
-
-.banner-title {
-  font-size: 36px;
-  color: white;
+  display: flex;
+  align-items: center;
+  gap: 15px;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px 20px;
-  border-radius: 10px;
-  letter-spacing: 2px;
+  border-radius: 12px;
   text-align: center;
+}
+
+/* Logo styling */
+.banner-logo {
+  width: 40px;
+  height: auto;
+}
+
+/* Title styling */
+.banner-title {
+  font-size: 32px;
+  color: white;
+  margin: 0;
+  letter-spacing: 2px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .banner-content-row {
+    flex-direction: column;
+  }
+
+  .banner-title {
+    font-size: 24px;
+  }
+
+  .banner-logo {
+    width: 35px;
+  }
 }
 
 
