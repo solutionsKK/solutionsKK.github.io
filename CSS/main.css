@@ -55,6 +55,7 @@ body {
 .banner-logo {
   width: 25px;
   height: auto;
+  border: 1px solid red;
 }
 
 /* Title styling */
