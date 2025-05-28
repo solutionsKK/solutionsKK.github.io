@@ -22,7 +22,7 @@ body {
 }
 
 
-/* Banner with logo and title */
+/* Banner container */
 .banner {
   position: relative;
   width: 100%;
@@ -30,41 +30,41 @@ body {
   overflow: hidden;
 }
 
+/* Banner background image */
 .banner-bg {
   width: 100%;
   height: auto;
   display: block;
 }
 
-.banner-logo {
+/* Logo positioned to top-left */
+.banner-logo-left {
+  position: absolute;
+  top: 20px;
+  left: 20px;
   width: 40px;
   height: auto;
-  vertical-align: middle;
+  z-index: 2;
 }
 
-.banner-content-column {
+/* Centered title inside banner */
+.banner-title-center {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  padding: 10px 20px;
+  z-index: 2;
   background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 8px;
-  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px;
 }
 
-
-/* Title styling */
 .banner-title {
-  font-size: 32px;
+  font-size: 28px;
   color: white;
   margin: 0;
-  letter-spacing: 2px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  letter-spacing: 1px;
 }
 
 
