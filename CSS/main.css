@@ -30,10 +30,15 @@ body {
   overflow: hidden;
 }
 
-.banner img {
+.banner-bg {
   width: 100%;
   height: auto;
   display: block;
+}
+
+.banner-logo {
+  width: 25px;
+  height: auto;
 }
 
 /* Flex container for logo + title */
@@ -51,11 +56,6 @@ body {
   text-align: center;
 }
 
-/* Logo styling */
-.banner-logo {
-  width: 5px;
-  height: auto;
-}
 
 /* Title styling */
 .banner-title {
