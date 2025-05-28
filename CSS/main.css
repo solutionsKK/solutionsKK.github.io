@@ -41,20 +41,7 @@ body {
   height: auto;
 }
 
-/* Flex container for logo + title */
-.banner-content-row {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 10px 20px;
-  border-radius: 12px;
-  text-align: center;
-}
+
 
 
 /* Title styling */
