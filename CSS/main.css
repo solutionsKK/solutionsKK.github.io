@@ -44,16 +44,16 @@ body {
   transform: translate(-50%, -50%);
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 10px 20px;
-  border-radius: 12px;
-  text-align: center;
+  padding: 8px 16px;
+  border-radius: 10px;
+  text-align: left;
 }
 
 /* Logo styling */
 .banner-logo {
-  width: 32px;
+  width: 28px;
   height: auto;
 }
 
