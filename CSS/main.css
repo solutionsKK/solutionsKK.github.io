@@ -51,7 +51,7 @@ body {
 
 /* Logo on the left */
 .banner-logo-left {
-  width: 40px;
+  width: 60px;
   height: auto;
   z-index: 2;
 }
@@ -252,7 +252,7 @@ body {
   }
 
   .banner-logo {
-    width: 20px;
+    width: 40px;
   }
 
   .page-title {
