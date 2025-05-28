@@ -66,20 +66,6 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .banner-content-row {
-    flex-direction: column;
-  }
-
-  .banner-title {
-    font-size: 24px;
-  }
-
-  .banner-logo {
-    width: 35px;
-  }
-}
 
 
 
@@ -252,6 +238,19 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .banner-content-row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .banner-title {
+    font-size: 24px;
+  }
+
+  .banner-logo {
+    width: 35px;
+  }
+
   .page-title {
     font-size: 24px;
   }
