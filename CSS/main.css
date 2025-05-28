@@ -233,17 +233,17 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  .banner-content-row {
+  .banner-content-column {
     flex-direction: column;
     text-align: center;
   }
 
   .banner-title {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .banner-logo {
-    width: 35px;
+    width: 30px;
   }
 
   .page-title {
