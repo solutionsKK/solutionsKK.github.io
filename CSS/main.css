@@ -39,6 +39,7 @@ body {
 .banner-logo {
   width: 40px;
   height: auto;
+  vertical-align: middle;
 }
 
 .banner-content-row {
