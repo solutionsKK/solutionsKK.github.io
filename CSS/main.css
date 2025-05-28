@@ -51,7 +51,7 @@ body {
 
 /* Logo on the left */
 .banner-logo-left {
-  width: 100%;
+  width: auto;
   height: auto;
   z-index: 2;
 }
