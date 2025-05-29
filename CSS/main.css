@@ -65,7 +65,7 @@ body {
   color: white;
   background-color: rgba(0, 0, 0, 0.6);
   padding: 12px 24px;
-  border-radius: 12px;
+  border-radius: 8px;
   z-index: 2;
   white-space: nowrap;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
