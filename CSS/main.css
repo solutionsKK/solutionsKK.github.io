@@ -51,7 +51,7 @@ body {
 /* Logo on the left */
 .banner-logo-left {
   width: auto;
-  height: 170px;
+  height: 140px;
   z-index: 2;
   filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
 }
@@ -302,7 +302,7 @@ body {
   }
   
   .banner-logo-left {
-    height: 50px;
+    height: 80px;
   }
 
   .banner-title-centered {
@@ -367,7 +367,7 @@ body {
   }
   
   .banner-logo-left {
-    height: 50px;
+    height: 60px;
   }
   
   .nav-link {
