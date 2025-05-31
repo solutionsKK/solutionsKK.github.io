@@ -34,7 +34,7 @@ body {
   object-fit: cover;
 }
 
-/* Flex container that holds both logo and title */
+/* logo and title */
 .banner-content-bar {
   position: absolute;
   top: 0;
